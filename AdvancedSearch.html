@@ -2,14 +2,44 @@
 <html lang="en">
     <head>
         <title>Advanced Search</title>
+        <style>
+              div {
+	 text-align: left;
+	}
+	h1 { 
+	color: red; 
+	text-align: center; 
+	padding: 20px;
+	font-family: Arial; 
+	font-weight: bold; 
+	}
+ 	#button{
+		color: white;
+		background-color: blue;
+	}
+	#container {
+	display: flex;
+	width: 50px;
+	height: 80px;
+	flex-direction: column;
+	}
+         </style>
     </head>
-    <body style= " text-align: center;" >
-        <h1> Advanced Search </h1> 
-           <form action="https://www.google.com/advanced_search">
-            <input type="text" placeholder = " all of these words: " name="q">
-            <input type="text" placeholder = " this exact word ot phrase: " name="q">
-            <input type="text" placeholder = " any of these words: " name="q">
-            <input type="text" placeholder = " none pf these words: " name="q">
-            <input type="submit" value="Google Advanced Search" style = color: white; background: blue;">
+    <body>
+<button> 
+	<a href="file:///C:/Users/eyobd/OneDrive/Documents/CS50%20WP/index.html">Google Search <a/> 
+       	 </button>
+<button> 
+	<a href="file:///C:/Users/eyobd/OneDrive/Documents/CS50%20WP/image.html">Google Image Search <a/> 
+       	 </button>
+        <h1> Google Advanced Search </h1> 
+       <div id = "container">
+           <div><form action="https://www.google.com/advanced_search"></div>
+            <div><input type="text" placeholder = " all of these words: " name="q"></div>
+            <div><input type="text" placeholder = " this exact word or phrase: " name="q"></div>
+            <div><input type="text" placeholder = " any of these words: " name="q"></div>
+            <div><input type="text" placeholder = " none of these words: " name="q"></div>
+            <div><input id="button" type="submit" value="Google Advanced Search"></div>
+        </div>
  </body>
 </html>

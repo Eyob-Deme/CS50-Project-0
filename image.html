@@ -2,11 +2,36 @@
 <html lang="en">
     <head>
         <title>Image Search</title>
+        <style>
+         #subtext {
+	color: red;
+	text-align: center; 
+	font-size: 20px;
+	font-family: Arial; 
+	}
+         #title {
+	color: blue; 
+	font-family: Arial;
+	font-weight: bold; 
+	}
+          #container2 {
+	text-align: center;
+}
+          </style>
     </head>
-    <body style = "text-align: center;">
-        <h1> Image Search </h1>   
+    <body>
+	<button> 
+	<a href="file:///C:/Users/eyobd/OneDrive/Documents/CS50%20WP/index.html">Google Search <a/> 
+       	 </button>
+                  <button> 
+	<a href="file:///C:/Users/eyobd/OneDrive/Documents/CS50%20WP/AdvancedSearch.html">Google Advanced Search <a/> 
+       	 </button>
+<div id = "container2">
+        <h1 id = "title"> Google Image Search </h1>
+        <h1 id = "subtext"> Images </h1>  
         <form action="https://images.google.com/">
             <input type="text" placeholder = "Image Name" name="q">
             <input type="submit" value="Google Image Search">
+</div>
             </body>
 </html>
